@@ -99,7 +99,7 @@ export const portfolioItems = [
     btnText: 'Demo',
     links : [
       {
-        prefix: 'Ruby on Rails Front/Back end - ',
+        prefix: 'Ruby on Rails Front and Back end - ',
         url: 'https://github.com/FergusDevelopmentLLC/skillcraft',
         linkText: 'Github repository'
       },
