@@ -3,6 +3,7 @@ import Parser from 'rss-parser'
 import Header from './components/Header'
 import FeaturedPosts from './components/FeaturedPosts'
 import Portfolio from './components/Portfolio'
+import Pager from './components/Pager'
 
 const App = () => {
 
@@ -61,6 +62,7 @@ const App = () => {
         <main class="main">
           <h3 class="portfolio-header">Portfolio</h3>
           <Portfolio />
+          <Pager />
         </main>
         <aside class="left">
           <h3 class="feature-header">Recent blog posts</h3>
