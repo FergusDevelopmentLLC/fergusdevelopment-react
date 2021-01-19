@@ -12,7 +12,7 @@ const PortfolioItem = (props) => {
       <ul>
         {
           links.map((link) => {
-          return <li>{ link.prefix}<a href={ link.url}>{ link.linkText}</a></li>
+          return <li>{ link.prefix }<a href={ link.url }>{ link.linkText }</a></li>
           })
         }
       </ul>
