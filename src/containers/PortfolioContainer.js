@@ -64,7 +64,7 @@ function PortfolioContainer() {
       <aside className="left">
         <h3 className="feature-header">Recent blog posts</h3>
         <FeaturedPosts posts={ posts } />
-        <div className='blog-more'><a href=''>More blog posts...</a></div>
+        <div className='blog-more'><a href="https://will-carter.medium.com/">More blog posts...</a></div>
       </aside>
     </div>
   )
