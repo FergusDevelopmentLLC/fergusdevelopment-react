@@ -11,8 +11,8 @@ const PortfolioItem = (props) => {
       <div><a href={ url }><img className="portfolio-img" src={ imageUrl } alt={ title } /></a></div>
       <ul>
         {
-          links.map((link) => {
-          return <li>{ link.prefix }<a href={ link.url }>{ link.linkText }</a></li>
+          links.map((link, i) => {
+          return <li key={ i }>{ link.prefix }<a href={ link.url }>{ link.linkText }</a></li>
           })
         }
       </ul>
