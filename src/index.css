@@ -13,7 +13,8 @@ body {
   max-width: 960px;
   font-family: Arial, Helvetica, sans-serif;
   font-size: .9em;
-  background: #808080;
+  background: rgb(0,0,0);
+  background: radial-gradient(circle, rgba(0,0,0,1) 25%, rgba(255,255,255,1) 100%);
 }
 
 #root {
@@ -32,8 +33,13 @@ h1,
 h2,
 h3,
 h4 {
-    margin-bottom: .5rem;
+    margin-bottom: .25rem;
     color: #525252;
+    
+}
+
+h4 a {
+  text-decoration: none !important;
 }
 
 ul {
@@ -144,8 +150,13 @@ p {
 
 .main { 
   grid-area: main;
-  padding: .9rem .9rem;
+  padding: 1rem 1rem 0 2rem;
   background: #fff;
+}
+
+.main img { 
+  border: 1px solid #bdbdbb;
+  width: 70%;
 }
 
 .full .main {
@@ -154,8 +165,8 @@ p {
 
 .right, .left { 
   grid-area: featured;
-  border-right: 1px solid #c9c9c9;
-  padding: .25rem .8rem 0 .8rem;
+  border-right: 1px solid hsl(0, 0%, 79%);
+  padding: .5rem 1rem 0 1rem;
   background: #fff4c7;
   display: flex;
   flex-direction: column;
@@ -193,8 +204,10 @@ p {
 }
 
 aside li {
-  padding: 0 0 .75rem 0;
+  padding: 0 0 1rem 0;
+  border-bottom: 1px solid #bdbdbb;
 }
+
 
 aside img {
   border: 1px solid #bdbdbb;
@@ -203,7 +216,7 @@ aside img {
 }
 
 aside a {
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 aside a:link {
@@ -216,12 +229,12 @@ aside a:visited {
 
 aside a:hover {
   color: #525252;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 aside a:active {
   color: #525252;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 main a {
