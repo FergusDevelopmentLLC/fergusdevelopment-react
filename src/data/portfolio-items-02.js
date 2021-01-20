@@ -1,6 +1,6 @@
-export const portfolioItems = [
+export const portfolioItems02 = [
   {
-    title: 'PolitiPoint.org',
+    title: 'Page 2',
     description: 'PolitiPoint.org is a survey that provides insight into political leanings beyond the traditional "right" and "left" framework.',
     url: 'https://www.politipoint.org/',
     imageUrl: 'https://res.cloudinary.com/fergusdev/image/upload/v1611091201/portfolio/politipoint_egxibf.gif',
