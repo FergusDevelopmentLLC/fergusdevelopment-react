@@ -55,16 +55,16 @@ function PortfolioContainer() {
   }, [])
 
   return (
-    <div class="home">
-      <main class="main">
-        <h3 class="portfolio-header">Portfolio</h3>
+    <div className="home">
+      <main className="main">
+        <h3 className="portfolio-header">Portfolio</h3>
         <Portfolio />
-        <Pager page={ 1 } />
+        <Pager />
       </main>
-      <aside class="left">
-        <h3 class="feature-header">Recent blog posts</h3>
+      <aside className="left">
+        <h3 className="feature-header">Recent blog posts</h3>
         <FeaturedPosts posts={ posts } />
-        <div class='blog-more'><a href=''>More blog posts...</a></div>
+        <div className='blog-more'><a href=''>More blog posts...</a></div>
       </aside>
     </div>
   )
