@@ -8,7 +8,7 @@ const PortfolioItem = (props) => {
     <div className='portfolio-item'>
       <h3>{ title }</h3>
       <p className="portfolio-desc" dangerouslySetInnerHTML={{ __html: description }}></p>
-      <div><a href={ url }><img className="portfolio-img" src={ imageUrl } alt={ title } /></a></div>
+      <div><a href={ url }><img className="portfolio-img" src={ imageUrl } alt={ title }></img></a></div>
       <ul>
         {
           links.map((link, i) => {
