@@ -12,7 +12,7 @@ const Header = () => {
           <div className="nav-title">Will Carter: Full Stack Web Developer</div>
           <div className="nav">
             <ul>
-              <li><Link to={ location.pathname === '/about' ? '/' : '/about' }>{ location.pathname === '/about' ? 'Portfolio' : 'About' }</Link></li>
+              <li><Link to={ location.pathname === '/about' ? '/' : '/about' }>{ location.pathname === '/about' ? 'Portfolio' : 'About/Resume' }</Link></li>
             </ul>
           </div>
         </div>
