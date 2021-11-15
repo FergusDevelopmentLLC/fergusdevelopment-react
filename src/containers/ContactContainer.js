@@ -10,9 +10,9 @@ function ContactContainer() {
           Denver, CO  80212<br/>
           <a href="mailto:will.carter@fergusllc.com" target="_top">will.carter@fergusllc.com</a>
         </p>
-        <p>I am a lifelong learner returning to web development, the work that has given me the most satisfaction and provided me with a voice for creativity. My web development work began at startup, later at a design and development firm and also at a major university. The creativity that surrounds the startup environment resonates with me. More recently, I have focused on data visualization, GIS, and web mapping along with building a reinvigorated modern web development toolset. I bring experience with a wide range of platforms at every level of the stack. I aim to join a team focused on making a positive impact.</p>
+        <p>A lifelong learner returning to web development, the work that has given me the most satisfaction and provided me with a voice for creativity. My web development work began at startup, later at a design and development firm and also at a major university. The creativity that surrounds the startup environment resonates with me. More recently, I have focused on data visualization, GIS, and web mapping along with building a reinvigorated modern web development toolset.</p>
         <ul>
-          <li><a href='https://docs.google.com/document/d/1I22L_9dr1zFLBqXu7N_seAGiUpuDsDszCi4E6okuzr4/edit?usp=sharing'>Resume</a></li>
+          <li><a href='https://docs.google.com/document/d/1x6hGafNwcIW-AXt6OkQoz_vxWU-RK4O1vcAklq2KSH4/edit?usp=sharing'>Resume</a></li>
           <li>LinkedIn: <a href='http://www.linkedin.com/in/williamlcarter'>http://www.linkedin.com/in/williamlcarter</a></li>
           <li>Blog: <a href='https://will-carter.medium.com/'>https://will-carter.medium.com/</a></li>
           <li>Portfolio: <a href='https://fergusdevelopmentllc.github.io/'>https://fergusdevelopmentllc.github.io/</a></li>
