@@ -65,7 +65,7 @@ export const portfolioItems01 = [
   {
     title: 'Hikefinder.net',
     description: 'Hikefinder.net is a resource to find hiking trails across the United States. Contains over 30,000 hiking trails, searchable by city/town or by pinpointing a location on the map.',
-    url: 'https://www.hikefinder.net/',
+    url: 'http://138.68.23.63:8282/',
     imageUrl: 'https://res.cloudinary.com/fergusdev/image/upload/v1611091204/portfolio/hikefinder_02_wmjmxb.png',
     btnText: 'Find a trail near you!',
     links : [
