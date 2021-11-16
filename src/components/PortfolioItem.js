@@ -8,15 +8,15 @@ const PortfolioItem = (props) => {
     <div className='portfolio-item'>
       <h3>{ title }</h3>
       <p className="portfolio-desc" dangerouslySetInnerHTML={{ __html: description }}></p>
-      <div><a href={ url }><img className="portfolio-img" src={ imageUrl } alt={ title }></img></a></div>
+      <div><a href={ url } target="_blank"><img className="portfolio-img" src={ imageUrl } alt={ title }></img></a></div>
       <ul>
         {
           links.map((link, i) => {
-          return <li key={ i }>{ link.prefix }<a href={ link.url }>{ link.linkText }</a></li>
+          return <li key={ i }>{ link.prefix }<a href={ link.url } target="_blank">{ link.linkText }</a></li>
           })
         }
       </ul>
-      <div><a className="btn info" href={ url }>{ btnText }</a></div>
+      <div><a className="btn info" href={ url } target="_blank">{ btnText }</a></div>
     </div>
   )
 }

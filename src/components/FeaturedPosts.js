@@ -11,10 +11,10 @@ const FeaturedPosts = ({
         
         return (
           <li key={ i }>
-            <h4><a href={ post.url }>{ post.title }</a></h4>
-            <div className="blog-subtitle"><a href={ post.url }>{ post.subtitle }</a></div>
+            <h4><a href={ post.url } target="_blank">{ post.title }</a></h4>
+            <div className="blog-subtitle"><a href={ post.url } target="_blank">{ post.subtitle }</a></div>
             <div className="blog-date">{ postDate.toLocaleDateString("en-US", { year: 'numeric', month: 'short', day: 'numeric' }) }</div>
-            <a href={ post.url }><img src={ post.imgUrl } alt={ post.title } /></a>
+            <a href={ post.url } target="_blank"><img src={ post.imgUrl } alt={ post.title } /></a>
           </li>
         )
       })}
