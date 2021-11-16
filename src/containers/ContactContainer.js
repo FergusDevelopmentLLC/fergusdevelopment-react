@@ -18,7 +18,6 @@ function ContactContainer() {
           <li>Portfolio: <a href='https://fergusdevelopmentllc.github.io/'>https://fergusdevelopmentllc.github.io/</a></li>
           <li>Github: <a href='https://github.com/FergusDevelopmentLLC'>https://github.com/FergusDevelopmentLLC</a></li>
           <li>Blocks: <a href='https://bl.ocks.org/fergusDevelopmentLLC'>https://bl.ocks.org/fergusDevelopmentLLC</a></li>
-          <li>Twitter: <a href='https://twitter.com/zippyferguson'>@zippyferguson</a></li>
         </ul>
       </main>
     </div>
