@@ -8,7 +8,7 @@ function ContactContainer() {
         <p>
           <strong>WILL CARTER</strong><br/>
           Denver, CO  80212<br/>
-          <a href="mailto:will.carter@fergusllc.com" target="_top">will.carter@fergusllc.com</a>
+          <a href="mailto:willcarter1@protonmail.com" target="_top">willcarter1@protonmail.com</a>
         </p>
         <p>A lifelong learner returning to web development, the work that has given me the most satisfaction and provided me with a voice for creativity. My web development work began at startup, later at a design and development firm and also at a major university. The creativity that surrounds the startup environment resonates with me. More recently, I have focused on data visualization, GIS, and web mapping along with building a reinvigorated modern web development toolset.</p>
         <ul>
